@@ -3,21 +3,10 @@ package data
 import java.io.File
 import java.util.concurrent.atomic.AtomicInteger
 
-/**
- * Simple task data model for Week 6.
- *
- * **Week 7 evolution**: Add `completed: Boolean` field
- * **Week 8 evolution**: Add `createdAt` timestamp for sorting
- */
 data class Task(val id: Int, var title: String)
 
-/**
- * In-memory repository with CSV persistence.
- *
- * **Simple approach for Week 6**: Singleton object with integer IDs
- * **Week 10 evolution**: Refactor to class with UUID for production-readiness
- */
 object TaskRepository {
+    // CSV Storage with CRUD
     private val file = File("data/tasks.csv")
     private val tasks = mutableListOf<Task>()
     private val idCounter = AtomicInteger(1)
@@ -27,7 +16,7 @@ object TaskRepository {
         if (!file.exists()) {
             file.writeText("id,title\n")
         } else {
-            file.readLines().drop(1).forEach { line ->
+            file.readLines().drop(1).forEach { line -> 
                 val parts = line.split(",", limit = 2)
                 if (parts.size == 2) {
                     val id = parts[0].toIntOrNull() ?: return@forEach
@@ -52,12 +41,6 @@ object TaskRepository {
         if (removed) persist()
         return removed
     }
-
-    // TODO: Week 7 Lab 1 Activity 2 Step 6
-    // Add find() and update() methods here
-    // Follow instructions in mdbook to implement:
-    // - fun find(id: Int): Task?
-    // - fun update(task: Task)
 
     private fun persist() {
         file.writeText("id,title\n" + tasks.joinToString("\n") { "${it.id},${it.title}" })
