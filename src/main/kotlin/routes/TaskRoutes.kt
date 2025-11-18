@@ -62,8 +62,7 @@ fun Route.taskRoutes() {
                 return@post call.respondText(error, ContentType.Text.Html, HttpStatusCode.BadRequest)
             } else {
                 // No-JS: redirect back (could add error query param)
-                call.response.headers.append("Location", "/tasks")
-                return@post call.respond(HttpStatusCode.SeeOther)
+                return@post call.respondRedirect("/tasks?error=required")
             }
         }
 
@@ -87,8 +86,7 @@ fun Route.taskRoutes() {
         }
 
         // No-JS: POST-Redirect-GET pattern (303 See Other)
-        call.response.headers.append("Location", "/tasks")
-        call.respond(HttpStatusCode.SeeOther)
+        call.respondRedirect("/tasks")
     }
 
     /**
@@ -96,25 +94,16 @@ fun Route.taskRoutes() {
      * Dual-mode: HTMX empty response or PRG redirect
      */
     post("/tasks/{id}/delete") {
-        val id = call.parameters["id"]?.toIntOrNull()
-        val removed = id?.let { TaskRepository.delete(it) } ?: false
+        vval id = call.parameters["id"]?.toIntOrNull()
+    val removed = id?.let { TaskRepository.delete(it) } ?: false
 
-        if (call.isHtmx()) {
-            val message = if (removed) "Task deleted." else "Could not delete task."
-            val status = """<div id="status" hx-swap-oob="true">$message</div>"""
-            // Return empty content to trigger outerHTML swap (removes the <li>)
-            return@post call.respondText(status, ContentType.Text.Html)
-        }
-
-        // No-JS: POST-Redirect-GET pattern (303 See Other)
-        call.response.headers.append("Location", "/tasks")
-        call.respond(HttpStatusCode.SeeOther)
+    if (call.isHtmx()) {
+        val message = if (removed) "Task deleted." else "Could not delete task."
+        val status = """<div id="status" hx-swap-oob="true">$message</div>"""
+        // Return empty content to trigger outerHTML swap (removes the <li>)
+        return@post call.respondText(status, ContentType.Text.Html)
     }
 
-    // TODO: Week 7 Lab 1 Activity 2 Steps 2-5
-    // Add inline edit routes here
-    // Follow instructions in mdbook to implement:
-    // - GET /tasks/{id}/edit - Show edit form (dual-mode)
-    // - POST /tasks/{id}/edit - Save edits with validation (dual-mode)
-    // - GET /tasks/{id}/view - Cancel edit (HTMX only)
+    call.respondRedirect("/tasks")
+    }
 }
