@@ -94,16 +94,16 @@ fun Route.taskRoutes() {
      * Dual-mode: HTMX empty response or PRG redirect
      */
     post("/tasks/{id}/delete") {
-        vval id = call.parameters["id"]?.toIntOrNull()
-    val removed = id?.let { TaskRepository.delete(it) } ?: false
+        val id = call.parameters["id"]?.toIntOrNull()
+        val removed = id?.let { TaskRepository.delete(it) } ?: false
 
-    if (call.isHtmx()) {
-        val message = if (removed) "Task deleted." else "Could not delete task."
-        val status = """<div id="status" hx-swap-oob="true">$message</div>"""
-        // Return empty content to trigger outerHTML swap (removes the <li>)
-        return@post call.respondText(status, ContentType.Text.Html)
-    }
+        if (call.isHtmx()) {
+            val message = if (removed) "Task deleted." else "Could not delete task."
+            val status = """<div id="status" hx-swap-oob="true">$message</div>"""
+            // Return empty content to trigger outerHTML swap (removes the <li>)
+            return@post call.respondText(status, ContentType.Text.Html)
+        }
 
-    call.respondRedirect("/tasks")
+        call.respondRedirect("/tasks")
     }
 }
