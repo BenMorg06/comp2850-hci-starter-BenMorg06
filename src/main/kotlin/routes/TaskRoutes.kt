@@ -103,15 +103,23 @@ fun Route.taskRoutes() {
         val task = TaskRepository.add(title)
 
         if (call.isHtmx()) {
-            // Return HTML fragment for new task
-            val viewTemplate = pebble.getTemplate("tasks/_item.peb") // Note: changed from "templates/tasks/_item.peb"
+            
+            // 1. Render the new task item fragment (you fixed this earlier)
+            val viewTemplate = pebble.getTemplate("tasks/_item.peb") 
             val viewWriter = StringWriter()
             viewTemplate.evaluate(viewWriter, mapOf("task" to task))
-            val fragment = viewWriter.toString()
+            val taskFragment = viewWriter.toString()
 
-            val status = """<div id="status" hx-swap-oob="true">Task "${task.title}" added successfully.</div>"""
+            // 2. OOB Swap for the Task Count (NEW CODE)
+            val newCount = TaskRepository.all().size // Get the newly updated count
+            val countOob = """<span id="task-count-total" hx-swap-oob="true">$newCount</span>"""
 
-            return@post call.respondText(fragment + status, ContentType.Text.Html, HttpStatusCode.Created)
+            // 3. OOB Swap for the success status (already existed)
+            val statusOob = """<div id="status" hx-swap-oob="true">Task "${task.title}" added successfully.</div>"""
+
+            // 4. Combine and respond
+            // The response body contains the fragment for the list, plus the OOB updates
+            return@post call.respondText(taskFragment + countOob + statusOob, ContentType.Text.Html, HttpStatusCode.Created)
         }
 
         // No-JS: POST-Redirect-GET pattern (303 See Other)
@@ -129,9 +137,12 @@ fun Route.taskRoutes() {
 
         if (call.isHtmx()) {
             val message = if (removed) "Task deleted." else "Could not delete task."
-            val status = """<div id="status" hx-swap-oob="true">$message</div>"""
-            // Return empty content to trigger outerHTML swap (removes the <li>)
-            return@post call.respondText(status, ContentType.Text.Html)
+            val statusOob = """<div id="status" hx-swap-oob="true">$message</div>"""
+
+            val newCount = TaskRepository.all().size 
+            val countOob = """<span id="task-count-total" hx-swap-oob="true">$newCount</span>"""
+
+            return@post call.respondText(statusOob + countOob, ContentType.Text.Html) // <--- Modified response
         }
 
         // No-JS: POST-Redirect-GET pattern (303 See Other)
