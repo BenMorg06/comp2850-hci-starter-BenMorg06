@@ -46,21 +46,25 @@ fun Route.taskRoutes() {
     get("/tasks/{id}/edit") {
         val id = call.parameters["id"]?.toIntOrNull() ?: return@get call.respond(HttpStatusCode.NotFound)
         val task = TaskRepository.find(id) ?: return@get call.respond(HttpStatusCode.NotFound)
+        val errorParam = call.request.queryParameters["error"]
+
+        val errorMessage = when (errorParam) {
+            "blank" -> "Title is required. Please enter at least one character."
+            else -> null
+        }
 
         if (call.isHtmx()) {
-            // HTMX path: return edit fragment
             val template = pebble.getTemplate("templates/tasks/_edit.peb")
-            val model = mapOf("task" to task, "error" to null)
+            val model = mapOf("task" to task, "error" to errorMessage)
             val writer = StringWriter()
             template.evaluate(writer, model)
             call.respondText(writer.toString(), ContentType.Text.Html)
         } else {
-            // No-JS path: full-page render with editingId
             val model = mapOf(
                 "title" to "Tasks",
                 "tasks" to TaskRepository.all(),
                 "editingId" to id,
-                "errorMessage" to null
+                "errorMessage" to errorMessage
             )
             val template = pebble.getTemplate("templates/tasks/index.peb")
             val writer = StringWriter()
@@ -68,6 +72,7 @@ fun Route.taskRoutes() {
             call.respondText(writer.toString(), ContentType.Text.Html)
         }
     }
+
 
 
     /**
