@@ -1,7 +1,7 @@
 # Task 1: Evaluation Plan
 
-**Student ID**: [Your student ID]
-**Date**: [Date]
+**Student ID**: 201808401
+**Date**: DD/11/2025
 **Module**: COMP2850 HCI
 
 ---
@@ -21,12 +21,14 @@
 ## 2. Link to Needs-Finding (LO2)
 
 **Connection to Week 6 job stories**:
-- [Reference 2-3 job stories from Week 6 Lab 2 that informed your evaluation tasks]
+- "When my hands are full, I want to be able to speak to the application to add a task and give it the correct date and time etc."
+- "When I have lots of tasks, I want to be able to order tasks by urgency."
 - [Example: "Job story: 'When I need to track coursework deadlines, I want to quickly add tasks, so I don't forget important dates' → informed Task 3 (add task) design"]
 
 **How needs-finding shaped evaluation**:
 - [Explain how user needs identified in Week 6 influenced which features to prioritise for testing]
 - [Example: "Needs-finding revealed that participants value speed over visual polish, so we're measuring time-on-task as primary metric"]
+- Needs-finding revealed that participants value ... task prioritisation
 
 **Evidence trail**: Week 6 job stories → backlog items → features implemented → evaluation tasks
 

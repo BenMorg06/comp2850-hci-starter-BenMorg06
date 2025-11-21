@@ -1,15 +1,5 @@
 # TODO: Week 6 Lab 2 Activity 1 Step 2
 
-Your consent protocol should include:
-- [ ] Purpose statement
-- [ ] What participants will do
-- [ ] Data collected (and NOT collected - no PII)
-- [ ] Data storage location and duration
-- [ ] Participant rights (UK GDPR)
-- [ ] Consent confirmation checklist
-- [ ] Opt-out process
-- [ ] Contact information
-
 **Module**: COMP2850 Human-Computer Interaction
 **Activity**: Low-risk needs-finding (peer interviews)
 **Date**: [2025-11-18]
