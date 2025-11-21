@@ -189,87 +189,98 @@
 
 ## Participant C
 
-**Date**: [2025-11-21 HH:MM]
-**Context**: 
+**Date**: [2025-11-21 16:51]
+**Context**: Hypermobility in wrists
 **Consent**: ✅ Confirmed verbally
-**Duration**: X minutes
+**Duration**: 11 minutes
 
 ### Q1: How often do you use a task manager
 
-**Response**: 
+**Response**: Every day, use for everything (mix of work and life). Food shops, uni work. Sorted into folders and prioritised by due date.
 
 **Observations**: 
 
-- 
+- Prioritisation
+- Mix of work and life tasks
 
-**Themes**: 
+**Themes**: `prioritisation`, `time_management`
 
 ---
 
 ### Q2: What frustrations do you have using your current task management tool?
 
-**Response**: 
+**Response**: Somtimes I find that it doesnt sync well between phone and laptop. Autofills dates, setting to turn off
 
 **Observations**:
 
-- 
+- Poor synchronisation between devices
+- Incorrect autocomplete -> wasted time
 
-**Themes**: 
+**Themes**: `synchronisation`, `autocomplete`
 
 ---
 
 ### Q3: Do you ever lose track of tasks?
 
-**Response**:
+**Response**: not often, but the task manager helps well. Better than paper, all there and organised and compartmentilsed
 
 **Observations**:
 
-- 
+- Folders are a good feature for organisation
+- Good layout helps clarity
 
-**Themes**: 
+**Themes**: `organisation`. `layout`
 
 ---
 
 ### Q4: Have you ever had to work without a mouse?
 
-**Response**: 
+**Response**: No
 
 **Observations**:
 
-- 
+- N/A
 
-**Themes**: 
+**Themes**: N/A
 
 ---
 
 ### Q5: Do you often work in bright-sunlight or with a screen reader?
 
-**Response**: 
+**Response**: Not really, but font and background colours make contrast difficult especially in the sun-light. Better to use bolder or distinct fonts. Sometimes screen readers are useful but monotonous voices make it not engaging and annoying. Sometimes doesnt read in a very human way which can confuse thing and when there is no alt for images. Reading incorrect parts of screen.
 
 **Observations**:
 
-- 
+- Font, colours and contrast are important for visibility
+- Bold and distinct fonts are better
+- Monotone screen readers are not engaging
+- Poor quality screen reader compatibility excludes some users
 
-**Themes**: 
+**Themes**: `alt_images`, `font`, `contrast`
 
 ---
 
 ### Q6: Is there a feature you wish your current app had?
 
-**Response**: 
+**Response**: Better calendar integrations
 
 **Observations**:
 
-- 
+- Better calendar integrations -> less cognitive overload
 
-**Themes**: 
+**Themes**: `cognitive_overload`, `organisation`
 
 ---
 
 ## Summary (Participant C)
 
 **Top pain points**:
-1. 
+1. Poor synchronisation -> Wasted time
+2. Lack of calendar integration -> cognitive overload
+3. Poor design (fonts, colours and layout) -> lack of clarity
+4. Poor screen reader compatibility -> temporary exclusion
 
 **Job story ideas**:
-- 
+- When I add a task on my phone, I want to be able to see it across all my devices in order to make my tasks clear whatever device I'm on
+- When I have a busy week, I want to be able to see my tasks in my calendar so I can find time to complete them
+- When I have to read a long article, I want the screen reader to read the text cohesively and completely

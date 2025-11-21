@@ -19,7 +19,7 @@
 **Outcome**: So I can clearly see which tasks need to be completed first
 **Underlying need**: Because having to scroll through a list of tasks and pick out specific ones wastes time and creates cognitive overload
 
-**Evidence**: Participant A (notes Q3), Participant B (Q1)
+**Evidence**: Participant A (notes Q3), Participant B (Q1), Participant C (Q1)
 **Inclusion risk**: 
 **Type**: Job Story
 **WCAG**:
@@ -27,14 +27,14 @@
 ---
 
 ## Story S3:
-**Situation**: 
-**Motivation**:
-**Outcome**: 
-**Underlying need**:
+**Situation**: When I have to read a long text
+**Motivation**: I want to use the screen-reader to listen to it rather than read it
+**Outcome**: So I can make notes whilst hearing the text
+**Underlying need**: Having to read a text reduces my ability to make better notes
 
-**Evidence**: 
+**Evidence**: Participant C (Q5)
 **Inclusion risk**: 
-**Type**: 
+**Type**: Job Story
 **WCAG**:
 
 ---
