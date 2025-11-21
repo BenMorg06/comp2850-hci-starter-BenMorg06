@@ -118,7 +118,7 @@
 
 ### Q2: What frustrations do you have using your current task management tool?
 
-**Response**: I get angry with the notes app as it does not have a user friendly appearance. I dont find the reminders app very easy to navigate, prefers notes
+**Response**: I get angry with the notes app as it does not have a user friendly appearance. I dont find the reminders app very easy to navigate, I prefer notes as I find it easier to use
 
 **Observations**:
 - Lack of user-friendly appearance
@@ -175,7 +175,7 @@
 
 ---
 
-## Summary (Participant A)
+## Summary (Participant B)
 
 **Top pain points**:
 1. Lack of user-friendly UI and customisations ->
@@ -186,3 +186,90 @@
 - When creating to-do lists, I want them to look clear and readable in a layout I like.
 - When I have lots of tasks, I want to recieve notifcations for only important ones so I dont forget them.
 - When using a task manager, I want it to be easy to use and display information clearly
+
+## Participant C
+
+**Date**: [2025-11-21 HH:MM]
+**Context**: 
+**Consent**: ✅ Confirmed verbally
+**Duration**: X minutes
+
+### Q1: How often do you use a task manager
+
+**Response**: 
+
+**Observations**: 
+
+- 
+
+**Themes**: 
+
+---
+
+### Q2: What frustrations do you have using your current task management tool?
+
+**Response**: 
+
+**Observations**:
+
+- 
+
+**Themes**: 
+
+---
+
+### Q3: Do you ever lose track of tasks?
+
+**Response**:
+
+**Observations**:
+
+- 
+
+**Themes**: 
+
+---
+
+### Q4: Have you ever had to work without a mouse?
+
+**Response**: 
+
+**Observations**:
+
+- 
+
+**Themes**: 
+
+---
+
+### Q5: Do you often work in bright-sunlight or with a screen reader?
+
+**Response**: 
+
+**Observations**:
+
+- 
+
+**Themes**: 
+
+---
+
+### Q6: Is there a feature you wish your current app had?
+
+**Response**: 
+
+**Observations**:
+
+- 
+
+**Themes**: 
+
+---
+
+## Summary (Participant C)
+
+**Top pain points**:
+1. 
+
+**Job story ideas**:
+- 

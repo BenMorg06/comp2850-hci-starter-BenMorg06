@@ -19,7 +19,7 @@
 **Outcome**: So I can clearly see which tasks need to be completed first
 **Underlying need**: Because having to scroll through a list of tasks and pick out specific ones wastes time and creates cognitive overload
 
-**Evidence**: Participant A (notes Q3)
+**Evidence**: Participant A (notes Q3), Participant B (Q1)
 **Inclusion risk**: 
 **Type**: Job Story
 **WCAG**:
@@ -28,7 +28,7 @@
 
 ## Story S3:
 **Situation**: 
-**Motivation**: 
+**Motivation**:
 **Outcome**: 
 **Underlying need**:
 
