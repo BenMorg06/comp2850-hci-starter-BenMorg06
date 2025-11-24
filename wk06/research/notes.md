@@ -118,7 +118,7 @@
 
 ### Q2: What frustrations do you have using your current task management tool?
 
-**Response**: I get angry with the notes app as it does not have a user friendly appearance. I dont find the reminders app very easy to navigate, I prefer notes as I find it easier to use
+**Response**: I get angry with the notes app as it does not have a user friendly appearance. I dont find the reminders app very easy to navigate, prefers notes
 
 **Observations**:
 - Lack of user-friendly appearance
@@ -284,3 +284,94 @@
 - When I add a task on my phone, I want to be able to see it across all my devices in order to make my tasks clear whatever device I'm on
 - When I have a busy week, I want to be able to see my tasks in my calendar so I can find time to complete them
 - When I have to read a long article, I want the screen reader to read the text cohesively and completely
+
+## Participant D
+
+**Date**: [2025-11-24 20:21]
+**Context**: ADHD
+**Consent**: ✅ Confirmed verbally
+**Duration**: 8 minutes
+
+### Q1: How often do you use a task manager
+
+**Response**: Everyday, uni work
+
+**Observations**: 
+
+- Prioritisation
+- Mix of work and life tasks
+
+**Themes**: `prioritisation`, `time_management`
+
+---
+
+### Q2: What frustrations do you have using your current task management tool?
+
+**Response**: The notifications get lost
+
+**Observations**:
+
+- Poor synchronisation between devices
+- Incorrect autocomplete -> wasted time
+
+**Themes**: `synchronisation`, `autocomplete`
+
+---
+
+### Q3: Do you ever lose track of tasks?
+
+**Response**: Yes, ADHD
+
+**Observations**:
+
+- Folders are a good feature for organisation
+- Good layout helps clarity
+
+**Themes**: `organisation`. `layout`
+
+---
+
+### Q4: Have you ever had to work without a mouse?
+
+**Response**: Yes, I use Ipad with trackpad, touchscreen and pencil
+
+**Observations**:
+
+- N/A
+
+**Themes**: N/A
+
+---
+
+### Q5: Do you often work in bright-sunlight or with a screen reader?
+
+**Response**: No
+**Observations**:
+
+- Font, colours and contrast are important for visibility
+- Bold and distinct fonts are better
+- Monotone screen readers are not engaging
+- Poor quality screen reader compatibility excludes some users
+
+**Themes**: `alt_images`, `font`, `contrast`
+
+---
+
+### Q6: Is there a feature you wish your current app had?
+
+**Response**: Sorted tasks by highest priority
+
+**Observations**:
+
+- Better calendar integrations -> less cognitive overload
+
+**Themes**: `cognitive_overload`, `organisation`
+
+---
+
+## Summary (Participant D)
+
+**Top pain points**:
+1. 
+**Job story ideas**:
+- 
