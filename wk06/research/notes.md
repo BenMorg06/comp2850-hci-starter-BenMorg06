@@ -294,38 +294,37 @@
 
 ### Q1: How often do you use a task manager
 
-**Response**: Everyday, uni work
+**Response**: Everyday, uni work and life tasks. I end up with a long list that can be confusing to keep track of, as I struggle ticking off tasks.
 
 **Observations**: 
-
-- Prioritisation
+- Lots of tasks
 - Mix of work and life tasks
+- Lose track
 
-**Themes**: `prioritisation`, `time_management`
+**Themes**: `time_management`, `lose_track`
 
 ---
 
 ### Q2: What frustrations do you have using your current task management tool?
 
-**Response**: The notifications get lost
+**Response**: The notifications get lost, and I cant keep track of tasks across my different devices
 
 **Observations**:
 
-- Poor synchronisation between devices
-- Incorrect autocomplete -> wasted time
+- Poor notifications
+- Poor synchronisation
 
-**Themes**: `synchronisation`, `autocomplete`
+**Themes**: `notifications`, `synchronisation`
 
 ---
 
 ### Q3: Do you ever lose track of tasks?
 
-**Response**: Yes, ADHD
+**Response**: Yes, because of my ADHD I seem to add a lot of tasks and not tick off nearly as many. This means I end up with a really long disorganised list that I can't keep track of. 
 
 **Observations**:
-
-- Folders are a good feature for organisation
-- Good layout helps clarity
+- Bad layout
+- Bad organisation
 
 **Themes**: `organisation`. `layout`
 
@@ -333,13 +332,14 @@
 
 ### Q4: Have you ever had to work without a mouse?
 
-**Response**: Yes, I use Ipad with trackpad, touchscreen and pencil
+**Response**: Yes, I use Ipad with magic keyboard, touchscreen and pencil. When websites and apps arent very compatible with touch screen it limits what I can do when working without my laptop. On my laptop when I am not using the touchscreen for apps I use the keyboard, as I do not have a mouse with it I struggle when I can't navigate with only my keyboard
 
 **Observations**:
+- Prefers to use touchscreen ipad
+- Frustration with poor touchscreen integration
+- No keyboard
 
-- N/A
-
-**Themes**: N/A
+**Themes**: `ipad`, `touchscreen`, `no_keyboard`
 
 ---
 
@@ -348,30 +348,32 @@
 **Response**: No
 **Observations**:
 
-- Font, colours and contrast are important for visibility
-- Bold and distinct fonts are better
-- Monotone screen readers are not engaging
-- Poor quality screen reader compatibility excludes some users
+- N/A
 
-**Themes**: `alt_images`, `font`, `contrast`
+**Themes**: N/A
 
 ---
 
 ### Q6: Is there a feature you wish your current app had?
 
-**Response**: Sorted tasks by highest priority
+**Response**: Sorted tasks by highest priority, and separate tasks with folders
 
 **Observations**:
+- Wants to be able to sort tasks by priority
+- Separate tasks into section and folders
 
-- Better calendar integrations -> less cognitive overload
-
-**Themes**: `cognitive_overload`, `organisation`
+**Themes**: `prioritisation`, `folders`
 
 ---
 
 ## Summary (Participant D)
 
 **Top pain points**:
-1. 
+1. Lack of prioritisation
+2. Lack of folders or filters
+3. Poor notifications
+
 **Job story ideas**:
-- 
+- When I am working with lots of tasks, I want to be able to prioritise them based on deadlines
+- When I have lots of different tasks, I want to be able to separate them into separate locations within my to-do list
+- When I am busy, I want my notifications of tasks to be clear and not get lost in a sea of notifications

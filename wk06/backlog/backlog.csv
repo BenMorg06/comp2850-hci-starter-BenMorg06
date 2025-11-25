@@ -1,1 +1,7 @@
 id,title,story_ref,story_type,need,type,severity,inclusion_risk,evidence,notes,candidate_fix
+1,Adding tasks through voice dictation,stories.md##S1,Job story,NEED,TYPE,SEVERITY,INCLUSION_RISK,EVIDENCE,NOTES,false
+2,Prioritising tasks based on urgency,stories.md##S2,Job story,NEED,TYPE,SEVERITY,INCLUSION_RISK,EVIDENCE,NOTES,false
+3,Using a screen reader for long texts,stories.md##S3,Job story,NEED,TYPE,SEVERITY,INCLUSION_RISK,EVIDENCE,NOTES,false
+4,Organising tasks into different folders,stories.md##S4,Job story,NEED,TYPE,SEVERITY,INCLUSION_RISK,EVIDENCE,NOTES,false
+5,Working in a room with bad lighting,stories.md##5,Job story,NEED,TYPE,SEVERITY,INCLUSION_RISK,EVIDENCE,NOTES,true
+6,Working without a mouse,stories.md##S6,Job story,NEED,TYPE,SEVERITY,INCLUSION_RISK,EVIDENCE,NOTES,true
