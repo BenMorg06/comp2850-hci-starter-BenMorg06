@@ -1,9 +1,9 @@
 id,title,story_ref,story_type,need,type,severity,inclusion_risk,evidence,notes,candidate_fix
-1,Adding tasks through voice dictation,stories.md##S1,Job story,NEED,TYPE,SEVERITY,INCLUSION_RISK,EVIDENCE,NOTES,false
-2,Prioritising tasks based on urgency,stories.md##S2,Job story,NEED,TYPE,SEVERITY,INCLUSION_RISK,EVIDENCE,NOTES,false
-3,Using a screen reader for long texts,stories.md##S3,Job story,NEED,TYPE,SEVERITY,INCLUSION_RISK,EVIDENCE,NOTES,false
-4,Organising tasks into different folders,stories.md##S4,Job story,NEED,TYPE,SEVERITY,INCLUSION_RISK,EVIDENCE,NOTES,false
-5,Working in a room with bad lighting,stories.md##5,Job story,NEED,TYPE,SEVERITY,INCLUSION_RISK,EVIDENCE,NOTES,true
-6,Working without a mouse,stories.md##S6,Job story,NEED,TYPE,SEVERITY,INCLUSION_RISK,EVIDENCE,NOTES,true
-7,
-8,
+1,Adding tasks through voice dictation,stories.md##S1,Job story,Hands free control,Performance,Low,INCLUSION_RISK,P-A S1,Current implementation has no voice dication,false
+2,Prioritising tasks based on urgency,stories.md##S2,Job story,Prioritising tasks,Performance,Low,INCLUSION_RISK,P-A;P-B;P-C;P-D S2,NOTES,false
+3,Using a screen reader for long texts,stories.md##S3,Job story,Screen reader,Accessibility,Medium,Screen reader; cognitive,P-C S3,NOTES,false
+4,Organising tasks into different folders,stories.md##S4,Job story,Organisation,Performance,Low,ADHD, Cognitive,P-D S4,NOTES,false
+5,Working in a room with bad lighting,stories.md##5,Job story,Visability,Accessibility,Medium,Low vision; Colour-blindness; Situational,P-A;P-C S5,WCAG 1.4.3 AA,false
+6,Working without a mouse,stories.md##S6,Job story,Keyboard access,Usability,High,Limited equiptment; Hand mobility impairment,P-D Q4,WCAG 2.1.3 AAA,true
+7,Trying to read small text,notes.md##PA###Q6,Pain point,Customisation; Visability,Accessibility,Medium,Partially sighted,P-A Q6,WCAG 1.4.4 AA,false
+8,Using keyboard only navigation,stories.md#S6,Job story,Keyboard Access,Usability,Medium,Hand mobility impairment; Limited equiptment,P-D S6,WCAG 2.4.13 AAA,true
