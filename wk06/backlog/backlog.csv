@@ -5,3 +5,5 @@ id,title,story_ref,story_type,need,type,severity,inclusion_risk,evidence,notes,c
 4,Organising tasks into different folders,stories.md##S4,Job story,NEED,TYPE,SEVERITY,INCLUSION_RISK,EVIDENCE,NOTES,false
 5,Working in a room with bad lighting,stories.md##5,Job story,NEED,TYPE,SEVERITY,INCLUSION_RISK,EVIDENCE,NOTES,true
 6,Working without a mouse,stories.md##S6,Job story,NEED,TYPE,SEVERITY,INCLUSION_RISK,EVIDENCE,NOTES,true
+7,
+8,
